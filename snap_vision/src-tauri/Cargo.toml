@@ -1,0 +1,34 @@
+[package]
+name = "snap-vision"
+version = "0.1.0"
+description = "Alt+RightClick screenshot to GLM vision, frosted chat popup"
+authors = ["you"]
+edition = "2021"
+
+[lib]
+name = "snap_vision_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[features]
+# 生产构建启用：内嵌 frontendDist，不再指向 devUrl（cargo build --release --features custom-protocol）
+custom-protocol = ["tauri/custom-protocol"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+base64 = "0.22"
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+ureq = { version = "2", features = ["json"] }
+
+[target.'cfg(target_os = "windows")'.dependencies]
+windows-sys = { version = "0.59", features = [
+    "Win32_Foundation",
+    "Win32_Graphics_Dwm",
+    "Win32_Graphics_Gdi",
+    "Win32_UI_WindowsAndMessaging",
+    "Win32_UI_Input_KeyboardAndMouse",
+] }

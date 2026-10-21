@@ -1,0 +1,1 @@
+{"default":{"identifier":"default","description":"Snap Vision 默认能力：事件监听（vision://drag / vision://new-capture）与窗口控制","local":true,"windows":["chat","overlay"],"permissions":["core:default","core:window:allow-close","core:window:allow-hide","core:window:allow-show","core:window:allow-set-focus","core:window:allow-start-dragging"]}}

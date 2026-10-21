@@ -1,0 +1,16 @@
+# 构建产物与依赖（体积大且可再生）
+node_modules/
+dist/
+src-tauri/target/
+
+# 运行时目录：含 API key 的 snap_vision.json 与 exe 不入库
+bin/
+.venv-ocr*/
+
+# 自测截图可能包含真实桌面内容，一律不入库（合成基准图也可本地重新生成）
+*.png
+
+# 会话/日志
+.pi/
+*.log
+__pycache__/
