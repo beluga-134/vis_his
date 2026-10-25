@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>snap-vision</AssemblyName>
+    <RootNamespace>SnapVision</RootNamespace>
+    <Version>0.1.0</Version>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <!-- 纯便携布局：exe + capture.dll，不落注册表不装包 -->
+    <SatelliteResourceLanguages>zh-Hans;en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <!-- 零 NuGet 依赖：HTTP(HttpClient)/JSON(System.Text.Json)/PNG(WPF 编码器) 全部内置 -->
+
+  <!-- 捕获模块同拷贝到输出目录（部署时随 exe 走） -->
+  <ItemGroup>
+    <None Include="..\..\artifacts\native\capture.dll" Link="capture.dll"
+          CopyToOutputDirectory="PreserveNewest" Condition="Exists('..\..\artifacts\native\capture.dll')" />
+  </ItemGroup>
+
+  <!-- 窗口/任务栏图标（exe 图标由 ApplicationIcon 嵌入） -->
+  <ItemGroup>
+    <Resource Include="app.ico" />
+  </ItemGroup>
+
+</Project>

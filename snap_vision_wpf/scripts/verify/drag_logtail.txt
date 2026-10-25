@@ -1,0 +1,80 @@
+1792866929544 glass: solid fallback (noAcrylic=False, opacity=0.80, alpha=204)
+1792866929545 ui: controller changed settings=True db=False msgs=180
+1792866929546 ui: overlay rebuild -> settings
+1792866929710 glass: solid fallback (noAcrylic=False, opacity=0.70, alpha=179)
+1792866929710 ui: controller changed settings=True db=False msgs=180
+1792866929711 ui: overlay rebuild -> settings
+1792866929885 glass: solid fallback (noAcrylic=False, opacity=0.60, alpha=153)
+1792866929885 ui: controller changed settings=True db=False msgs=180
+1792866929886 ui: overlay rebuild -> settings
+1792866930058 glass: solid fallback (noAcrylic=False, opacity=0.50, alpha=128)
+1792866930058 ui: controller changed settings=True db=False msgs=180
+1792866930059 ui: overlay rebuild -> settings
+1792866930240 glass: solid fallback (noAcrylic=False, opacity=0.40, alpha=102)
+1792866930240 ui: controller changed settings=True db=False msgs=180
+1792866930241 ui: overlay rebuild -> settings
+1792866930439 glass: solid fallback (noAcrylic=False, opacity=0.30, alpha=77)
+1792866930439 ui: controller changed settings=True db=False msgs=180
+1792866930440 ui: overlay rebuild -> settings
+1792866930794 glass: solid fallback (noAcrylic=False, opacity=0.20, alpha=51)
+1792866930794 ui: controller changed settings=True db=False msgs=180
+1792866930796 ui: overlay rebuild -> settings
+1792866931130 glass: solid fallback (noAcrylic=False, opacity=0.10, alpha=26)
+1792866931130 ui: controller changed settings=True db=False msgs=180
+1792866931131 ui: overlay rebuild -> settings
+1792866932035 glass: solid fallback (noAcrylic=False, opacity=0.20, alpha=51)
+1792866932036 ui: controller changed settings=True db=False msgs=180
+1792866932037 ui: overlay rebuild -> settings
+1792866932222 glass: solid fallback (noAcrylic=False, opacity=0.30, alpha=77)
+1792866932223 ui: controller changed settings=True db=False msgs=180
+1792866932224 ui: overlay rebuild -> settings
+1792866932637 glass: solid fallback (noAcrylic=False, opacity=0.20, alpha=51)
+1792866932637 ui: controller changed settings=True db=False msgs=180
+1792866932638 ui: overlay rebuild -> settings
+1792866932845 glass: solid fallback (noAcrylic=False, opacity=0.10, alpha=26)
+1792866932846 ui: controller changed settings=True db=False msgs=180
+1792866932847 ui: overlay rebuild -> settings
+1792866933038 glass: solid fallback (noAcrylic=False, opacity=0.00, alpha=0)
+1792866933039 ui: controller changed settings=True db=False msgs=180
+1792866933040 ui: overlay rebuild -> settings
+1792866934176 glass: solid fallback (noAcrylic=False, opacity=0.10, alpha=26)
+1792866934177 ui: controller changed settings=True db=False msgs=180
+1792866934178 ui: overlay rebuild -> settings
+1792866934348 glass: solid fallback (noAcrylic=False, opacity=0.20, alpha=51)
+1792866934348 ui: controller changed settings=True db=False msgs=180
+1792866934350 ui: overlay rebuild -> settings
+1792866935157 ui: TitlebarDown src=TextBlock clickCount=1
+1792866936689 ui: RootMouseDown src=TextBlock at (0,0) btn=Released
+1792866937184 glass: solid fallback (noAcrylic=False, opacity=0.30, alpha=77)
+1792866937184 ui: controller changed settings=True db=False msgs=180
+1792866937186 ui: overlay rebuild -> settings
+1792866937548 glass: solid fallback (noAcrylic=False, opacity=0.20, alpha=51)
+1792866937548 ui: controller changed settings=True db=False msgs=180
+1792866937549 ui: overlay rebuild -> settings
+1792866937749 glass: solid fallback (noAcrylic=False, opacity=0.10, alpha=26)
+1792866937749 ui: controller changed settings=True db=False msgs=180
+1792866937751 ui: overlay rebuild -> settings
+1792866938251 glass: solid fallback (noAcrylic=False, opacity=0.00, alpha=0)
+1792866938251 ui: controller changed settings=True db=False msgs=180
+1792866938252 ui: overlay rebuild -> settings
+1792866940275 glass: solid fallback (noAcrylic=False, opacity=0.10, alpha=26)
+1792866940275 ui: controller changed settings=True db=False msgs=180
+1792866940277 ui: overlay rebuild -> settings
+1792866940537 glass: solid fallback (noAcrylic=False, opacity=0.20, alpha=51)
+1792866940537 ui: controller changed settings=True db=False msgs=180
+1792866940538 ui: overlay rebuild -> settings
+1792866940735 glass: solid fallback (noAcrylic=False, opacity=0.30, alpha=77)
+1792866940736 ui: controller changed settings=True db=False msgs=180
+1792866940737 ui: overlay rebuild -> settings
+1792866941936 ui: click close
+1792866941965 main: exit (0)
+1792867266894 main: start (args=)
+1792867266929 main: controller ready
+1792867271437 glass: solid fallback (noAcrylic=False, opacity=0.30, alpha=77)
+1792867271439 === snap vision native capture thread ready ===
+1792867271439 mouse + keyboard hooks installed
+1792867271629 main: window shown
+1792867271756 mcp: handshake ok, 2 tools, db=E:/qq_codex/vis_his/snap_vision/selftest/db_mcp/test_db_complex.duckdb, runtime=E:\qq_codex\vis_his\snap_vision\bin\sidecars\db_mcp_server\db_mcp_server.exe
+1792867271807 dbmcp: mounted E:/qq_codex/vis_his/snap_vision/selftest/db_mcp/test_db_complex.duckdb
+1792867272389 ui: controller changed settings=False db=False msgs=180
+1792867272390 ui: overlay rebuild -> none
